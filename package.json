@@ -11,12 +11,16 @@
     "deploy:debug": "NODE_DEBUG=gh-pages gh-pages -t -d out"
   },
   "dependencies": {
-    "gh-pages": "^2.2.0",
+    "axios": "^0.19.2",
     "next": "9.2.2",
     "react": "16.12.0",
-    "react-dom": "16.12.0"
+    "react-dom": "16.12.0",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "styled-components": "^5.0.1"
   },
   "devDependencies": {
-    "webpack": "^4.41.6"
+    "babel-plugin-styled-components": "^1.10.7",
+    "gh-pages": "^2.2.0"
   }
 }
